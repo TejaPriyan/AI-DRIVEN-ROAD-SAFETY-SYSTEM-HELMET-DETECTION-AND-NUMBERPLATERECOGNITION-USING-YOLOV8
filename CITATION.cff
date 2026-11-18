@@ -1,14 +1,12 @@
 cff-version: 1.2.0
-preferred-citation:
-  type: software
-  message: If you use YOLOv5, please cite it as below.
-  authors:
-  - family-names: Jocher
-    given-names: Glenn
-    orcid: "https://orcid.org/0000-0001-5950-6979"
-  title: "YOLOv5 by Ultralytics"
-  version: 7.0
-  doi: 10.5281/zenodo.3908559
-  date-released: 2020-5-29
-  license: AGPL-3.0
-  url: "https://github.com/ultralytics/yolov5"
+message: "If you use this software, please cite it as below."
+type: software
+title: "AI-Driven Road Safety System: Helmet Detection and Number Plate Recognition using YOLOv8"
+version: 0.1.0
+authors:
+  - family-names: Priyan
+    given-names: Teja
+    email: teja1616150@gmail.com
+license: AGPL-3.0
+repository-code: "https://github.com/TejaPriyan/AI-DRIVEN-ROAD-SAFETY-SYSTEM-HELMET-DETECTION-AND-NUMBERPLATERECOGNITION-USING-YOLOV8"
+url: "https://github.com/TejaPriyan/AI-DRIVEN-ROAD-SAFETY-SYSTEM-HELMET-DETECTION-AND-NUMBERPLATERECOGNITION-USING-YOLOV8"

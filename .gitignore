@@ -263,3 +263,4 @@ runs/
 output/
 *.pt
 !yolov8n.pt
+.pytest_cache/

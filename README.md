@@ -3,11 +3,11 @@
 
 > An end-to-end intelligent computer vision system engineered by **[Teja Priyan](https://github.com/TejaPriyan)** to detect motorcycle helmet violations and automatically recognize license plates in real-time traffic surveillance streams.
 
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-00ffff.svg)](https://docs.ultralytics.com/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.8%2B-5C3EE8.svg?logo=opencv&logoColor=white)](https://opencv.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 
 ---
 
@@ -100,7 +100,7 @@ python detect.py --source path/to/images/ --save --save-crop
 
 To train the YOLOv8 road safety model on your custom dataset:
 
-1. Prepare your `data.yaml` file specifying `train` and `val` image paths and class labels:
+1. Update the included template [`data.yaml`](data.yaml) file specifying `train` and `val` image paths and class labels:
 ```yaml
 names:
   0: Helmet
@@ -147,4 +147,4 @@ python val.py --weights runs/train/road_safety_model/weights/best.pt --data data
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE) © 2026 **Teja Priyan**.
+This project is licensed under the [GNU Affero General Public License v3.0 (AGPL-3.0)](LICENSE) © 2026 **Teja Priyan**.

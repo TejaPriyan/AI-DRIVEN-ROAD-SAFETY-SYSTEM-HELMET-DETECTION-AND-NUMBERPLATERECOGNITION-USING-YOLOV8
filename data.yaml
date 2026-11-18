@@ -1,0 +1,13 @@
+# YOLOv8 Road Safety Dataset Configuration Template
+# Place training and validation images/labels under the paths below
+# or update these paths to match your dataset directory.
+
+train: data/images/train
+val: data/images/val
+
+nc: 4
+names:
+  0: Helmet
+  1: No-Helmet
+  2: Rider
+  3: Number-Plate
